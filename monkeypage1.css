@@ -1,0 +1,47 @@
+body{
+    background-color: #FAEBC8 !important;
+    margin: 0;
+}
+
+h3 {text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div {text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.square {
+  background-color: #ffff;
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  -moz-box-shadow: 0 0 30px #4a021a;
+  -webkit-box-shadow: 0 0 30px #4a021a;
+  box-shadow: 0 0 30px #4a021a;
+  }
+
+  #corner {
+    border-radius: 25px;
+    background: #ffff;
+    padding: 20px;
+    
+  }
+
+  .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+ 
+  .container{
+      padding: 1%;
+      box-sizing: border-box;
+  }
+
+
