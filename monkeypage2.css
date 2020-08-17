@@ -2,11 +2,13 @@
 p, .form-check{
     padding-top: 20px;
     padding-right: 200px;
+    font-family: 'Poppins', sans-serif;
 
 }
 h2.txtheader{
     text-align: center;
     margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
 }
 .background{
     background: linear-gradient(to right, rgba(94, 34, 34, 0.808), rgba(241, 215, 215, 0.993));
