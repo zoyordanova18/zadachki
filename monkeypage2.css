@@ -1,6 +1,12 @@
 
+p, .form-check{
+    padding-top: 20px;
+    padding-right: 200px;
+
+}
 h2.txtheader{
     text-align: center;
+    margin-top: 60px;
 }
 .background{
     background: linear-gradient(to right, rgba(94, 34, 34, 0.808), rgba(241, 215, 215, 0.993));
@@ -8,7 +14,7 @@ h2.txtheader{
 
 .square {
     background-color: #ffff;
-   
+   margin-top: 30px;
     /* position: absolute;
     top: 8%;
     left: 12%; */
@@ -19,18 +25,18 @@ h2.txtheader{
 #corner {
     border-radius: 25px;
     background: #ffff;
-    padding: 30px;
+    padding: 50px;
         
 }
 .center{
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 .flex-container {
-    display: grid;
+    display: flex;
     flex-direction: column;
-    position: initial;
+    position: unset;
     top: 100px;
     right: 200px;
     font-size: 100%;
@@ -38,4 +44,24 @@ h2.txtheader{
     margin-top: 20px;
   }
 
-  
+button:hover{
+    background-color: rgba(85, 2, 2, 0.87);
+}
+button{
+    background-color: rgba(105, 1, 1, 0.281);
+
+ 
+}
+.spacing{
+    padding-top: 10px;
+}
+.last{
+
+    padding-top: 40px;
+}
+
+a:link {
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
