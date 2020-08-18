@@ -1,6 +1,19 @@
+h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;   
+}
+
+h2{
+    text-align: center;
+    margin-left: 300px;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 div{
     display: inline-block;
-    margin-top:-5px;
+    margin-top: 0;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-stretch: initial;
@@ -8,88 +21,161 @@ div{
 
 p{
     font-family: 'Open Sans', sans-serif;
-    
+    width: 50%x ;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    column-fill: balance;  
 } 
 
-.menu{
-    text-align:center;
+div.p{
+    text-align: center;
 }
-
 .menu li{
-        
      display:inline-block;
 }
 
 .header{
-    
-    
     background-color: rgb(255, 255, 255);
     color: rgb(170, 0, 0);
     font-size: 20px;
-    text-align: center;
-    display: inline;
+    display: inline-block;
+    padding: 0px;
+    box-sizing: border-box;
 
       
 }
+#money-container{
+    background-image: url("header.png");
+   background-size: cover;
+   background-position: center;
+   color:white;
+   padding-top: 100px;
+   padding-bottom: 100px;
+
+}
 
 ul {
-
     list-style-type: none;
-    margin: 0;
+    margin: 10px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    text-align:center;
-    
 }
   
 li a {
-
     display: block;
     color: #F05F40;
-    padding: 14px 16px;
+    padding: 12px 10px;
+    padding-top: 10px;
+    padding-bottom: 0;
     text-decoration: none;
-    text-align:center;
-
+    text-align: center;   
 }
 
 #hrcolor1{
     border: 2px solid #F05F40;
     width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
       
 }
 
 #hrcolor2{
     border: 2px solid #ffffff;
     width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-li a:hover {
 
+li a:hover {
     background-color: rgba(226, 19, 19, 0.342);
-    text-align:center;
+    text-decoration: none;
 }
+
 .container1{
     text-align: center;
+  
+    
+}
 
+#money-container {
+      text-align: center;
+
+  }
+
+.spacing{
+    margin-top: 30px;
+}
+
+
+.centered {
+    text-align: center;
+}
+
+.redsquare{
+      background-color: #F05F40;
+      padding-bottom: 60px;
+      padding-top: 50px;
+      
+}
+
+.container{
 
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-    display: inline-block;  
-    
-    
-  }
-  .centered {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-  }
-  .redsquare{
-      background-color: #F05F40;
-      
-  }
+#rcorners3 {
+    border-radius: 50%;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+} 
   
+button:hover{
+    background-color: rgba(211, 176, 176, 0.342);
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.btn-monkey {
+    border-radius: 30px !important;
+    margin-left: 715px;
+    
+}
+
+.bootCols{
+    margin:0;
+    box-sizing:border-box;
+    padding:5px;
+    width: 50%;
+    
+
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newcont{
+    padding: 10%;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.fontin{
+    text-align: center;
+    display: inline-block;
+}
+
+.borderr{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
