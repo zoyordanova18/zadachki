@@ -12,16 +12,14 @@ h2{
 div{
     margin-top: 0;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 
 }
 
 p{
     font-family: 'Open Sans', sans-serif;
-    width: 50%;
     text-align: center;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    column-fill: balance;  
+    padding: 30px 400px;
 } 
 
 div.p{
@@ -31,6 +29,9 @@ div.p{
      display:inline-block;
 }
 
+.container1{
+    text-align: center;
+}
 .header{
     background-color: rgb(255, 255, 255);
     color: rgb(170, 0, 0);
@@ -56,13 +57,16 @@ div.p{
     border: 6px solid #ec2222;
  }
 
-ul {
+ul { 
+    text-align: center;
     list-style-type: none;
-    margin: 10px;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
+    margin:0;
+    padding:0;
 }
   
+
 li a {
     display: block;
     color: #F05F40;
@@ -76,16 +80,16 @@ li a {
 #hrcolor1{
     border: 2px solid #F05F40;
     width: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
       
 }
 
 #hrcolor2{
     border: 2px solid #ffffff;
     width: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 li a:hover {
@@ -98,6 +102,7 @@ li a:hover {
   
     
 }
+
 
 #money-container {
       text-align: center;
@@ -128,7 +133,7 @@ li a:hover {
 } 
   
 button:hover{
-    background-color: rgba(211, 176, 176, 0.342);
+    background-color: rgba(224, 159, 159, 0.521);
 }
 
 button{
@@ -138,10 +143,8 @@ button{
 }
 
 .borderr{
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
+    border: 2px solid #F05F40   ;
+    width: 360px;
 }
 
 .btn-monkey {
