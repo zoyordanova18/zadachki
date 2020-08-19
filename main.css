@@ -19,7 +19,7 @@ div{
 p{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    padding: 30px 400px;
+    padding: 30px 30%;
 } 
 
 div.p{
@@ -31,17 +31,11 @@ div.p{
 
 .container1{
     text-align: center;
-}
-.header{
-    background-color: rgb(255, 255, 255);
-    color: rgb(170, 0, 0);
     font-size: 20px;
-    display: inline-block;
-    padding: 0px;
-    box-sizing: border-box;
-
-      
 }
+
+
+
 #money-container{
     background-image: url("header.png");
    background-size: cover;
@@ -103,6 +97,9 @@ li a:hover {
     
 }
 
+.container2{
+    padding-bottom: 40px ;
+}
 
 #money-container {
       text-align: center;
@@ -110,7 +107,7 @@ li a:hover {
   }
 
 .spacing{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 
@@ -133,11 +130,11 @@ li a:hover {
 } 
   
 button:hover{
-    background-color: rgba(224, 159, 159, 0.521);
+    background-color: rgba(226, 204, 204, 0.562) !important;
 }
 
 button{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255) !important;
 
     
 }
@@ -163,10 +160,13 @@ button{
 
 .newcont{
     box-sizing: border-box;
-    padding-top: 40px;
-}
+   
+    border-top: 3px solid #F05F40;
+    border-bottom: 3px solid #F05F40;
+} 
 
 .fontin{
     text-align: center;
 }
+
 
