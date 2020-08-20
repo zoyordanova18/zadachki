@@ -46,12 +46,16 @@ h2.txtheader{
     margin-top: 20px;
   }
 
+ .btn-rounded{
+     border-radius: 20px;
+ }
+
 button:hover{
     background-color: rgba(85, 2, 2, 0.87);
 }
 button{
     background-color: rgba(105, 1, 1, 0.281);
-
+    border-radius: 20px;
  
 }
 .spacing{
@@ -66,4 +70,8 @@ a:link {
     color: gray;
     background-color: transparent;
     text-decoration: none;
+}
+.btn-monkey {
+    border-radius: 30px !important;
+    
 }
